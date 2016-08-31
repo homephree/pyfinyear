@@ -1,10 +1,9 @@
 import unittest
 import datetime
 import pyfinyear
-import calendar
 
 class MyTestCase(unittest.TestCase):
-    def test_something(self):
+    def test_fin_year_before_and_after_newyear(self):
         inst= datetime.date( day=1, month=3, year=2016)
         newYearIsFeb=2
         newYearIsApril=4

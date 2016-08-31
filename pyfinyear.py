@@ -4,10 +4,10 @@ import calendar
 
 def finyear( newyear, inst):
     thisyear= inst.year
-    lastyear= thisyear-1
     nextyear= thisyear+1
     if(inst.month >= newyear):
         return finyearnamefromyears( thisyear,nextyear)
+    lastyear= thisyear-1
     return finyearnamefromyears(lastyear,thisyear)
 
 
